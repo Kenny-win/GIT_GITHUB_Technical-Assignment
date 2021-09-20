@@ -1,0 +1,45 @@
+1. Fork repository GitHub https://github.com/impactbyte/tech4impact-students-bio.git menggunakan akun Github kamu
+link Image Screenshot : https://drive.google.com/file/d/1-cX1qzdZuC8-gpcSgc7LMMiMA6Ym6sC-/view?usp=sharing
+
+2. Clone remote repository dari hasil fork tersebut. Jangan clone dari repository originalnya.
+git clone https://github.com/Kenny-win/tech4impact-students-bio.git
+
+3. Buatlah branch baru dengan nama lengkap kamu. Misalnya david-winalda. Jangan melakukan perubahan pada branch master.
+git branch kenny-calnelius-winata
+
+4. Checkout ke dalam branch tersebut yang telah kamu buat
+git checkout kenny-calnelius-winata
+
+5. Buatlah 1 file format .md dengan nama lengkap kamu. Contoh davidwinalda.md
+type nul > kennycalneliuswinata.md
+
+6. Isi file tersebut davidwinalda.md dengan konten di bawah ini:
+	Nama Lengkap: David Winalda
+	Umur: 27
+	Pesan yang ingin disampaikan: Semangat untuk kamu yang disana sedang berjuang
+(echo Nama Lengkap: Kenny Calnelius Winata & echo Umur: 20 & echo Pesan yang ingin disampaikan: Semoga sukses selalu) >> kennycalneliuswinata.md
+link Image Screenshot : https://drive.google.com/file/d/1QI8azkBEdNJDGturve_XiOChjJWDqetm/view?usp=sharing
+
+7. Masukkan file .md tersebut ke dalam staging area
+git add kennycalneliuswinata.md
+
+8. Commit dengan memberikan pesan nama file .md kamu
+git commit -m "kennycalneliuswinata.md"
+
+9. Merge branch yang telah kamu buat ke dalam branch master
+git checkout master
+git merge kenny-calnelius-winata
+
+10. Push ke dalam branch master
+git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 386 bytes | 193.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Kenny-win/tech4impact-students-bio.git
+   165aa3b..aa66962  master -> master
+
+11. Lakukan pull request dari GitHub Repository yang telah kamu fork untuk digabungkan ke dalam branch master pada GitHub Repository aslinya.
+Link Image Screeshot : https://drive.google.com/file/d/1ioxkCE1EGOROss3x2Fr2lHHbBNxZwY95/view?usp=sharing
